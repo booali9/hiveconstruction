@@ -4,8 +4,8 @@
   "private": true,
   "type": "commonjs",
   "scripts": {
-    "dev": "nodemon src/server.js",
-    "start": "node src/server.js",
+    "dev": "node init && nodemon src/server.js",
+    "start": "node init && node src/server.js",
     "lint": "node -e \"console.log('No lint configured')\"",
     "seed:admin": "node src/scripts/seedAdmin.js"
   },
